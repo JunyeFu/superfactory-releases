@@ -4,7 +4,7 @@
 
 超级工厂是一款面向工厂布局与生产流程的三维仿真应用。通过设备模型、生产方案和运行时间轴，将设备作业、物料流转与成品运送呈现在同一工厂场景中。
 
-[下载应用（必需）](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Windows-x64.zip) · [下载示例工程（可选）](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Example-Factory.zip) · [查看版本说明](https://github.com/JunyeFu/superfactory-releases/releases/tag/v2.0.1)
+[下载应用（必需）](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Windows-x64.zip) · [下载示例工程（可选）](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Example-Factory.zip) · [阅读操作指南](USER_GUIDE.md)
 
 ## 产品功能
 
@@ -23,6 +23,12 @@
 **运行环境：Windows 11 x64，已安装 Microsoft Edge WebView2 Runtime。**
 
 完整解压应用压缩包，双击 `superfactory.exe` 即可启动。请保留解压目录中的全部文件；无需安装开发工具。操作详情见包内《使用说明》。
+
+## 软件操作指南
+
+[在线阅读完整指南](USER_GUIDE.md) · [下载离线操作指南](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-User-Guide.html)
+
+基础部分介绍三个启动入口、模板建厂、运行与回看、物品跟随及保存重开；进阶部分介绍订单调整、方案比较、自行建厂、布局编组、草稿检查、结果导出和云端操作。离线指南下载后可用浏览器打开，无需联网阅读。
 
 ## 启动后，选择哪种开始方式？
 
