@@ -1,13 +1,13 @@
 # 超级工厂 Windows 演示版
 
-在 Releases 下载 Windows x64 运行包，完整解压后双击 `superfactory.exe`。需要 Windows 11 x64 和 WebView2。请保留同目录的模型、字体与设备运行时目录。
+下载 [Windows x64 运行包](https://github.com/JunyeFu/superfactory-demo-releases/releases/download/v2.0.1-demo-20261029/SuperFactory-2.0.1-Windows-x64-final.zip)（约204 MiB），完整解压后双击 `superfactory.exe`。需要 Windows 11 x64 和 WebView2。请保留同目录的模型、字体与设备运行时目录。
 
 ## 开始演示
 
 1. 从模板新建工程，选择“纸包装多产品工厂 · 92台设备”。
 2. 使用模板演示配置，创建工厂，选择“纸包装演示生产”并运行方案。
 3. 在全厂、流水线及物品跟随视图查看本地预测运行结果；通过“文件”保存或打开工程目录。
-4. 另外下载并解压 `Paper-Carton-Project.zip`，打开其中的“纸箱产运演示”工程，查看保留的整厂 Run 和真实云执行历史。
+4. 另外下载并解压 [已保存案例](https://github.com/JunyeFu/superfactory-demo-releases/releases/download/v2.0.1-demo-20261029/Paper-Carton-Project.zip)（约296 MiB），打开其中的“纸箱产运演示”工程，查看保留的整厂 Run 和真实云执行历史。
 
 云端实时生产需要部署者签发的私有连接文件。公开包不包含设备令牌、账户配置或数据库密码。公网 API 地址不是网页前端。
 
