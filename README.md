@@ -1,16 +1,17 @@
 # 超级工厂 Windows 演示版
 
-下载 [Windows x64 运行包](https://github.com/JunyeFu/superfactory-demo-releases/releases/download/v2.0.1-demo-20261029/SuperFactory-2.0.1-Windows-x64-final.zip)（约204 MiB），完整解压后双击 `superfactory.exe`。需要 Windows 11 x64 和 WebView2。请保留同目录的模型、字体与设备运行时目录。
+下载 [Windows x64 运行包](https://github.com/JunyeFu/superfactory-demo-releases/releases/download/v2.0.1-demo-20261029.1/SuperFactory-2.0.1-Windows-x64-hotfix1.zip)（约204 MiB），完整解压后双击 `superfactory.exe`。需要 Windows 11 x64 和 WebView2。请保留同目录的模型、字体与设备运行时目录。
 
 ## 开始演示
 
 1. 从模板新建工程，选择“纸包装多产品工厂 · 92台设备”。
 2. 使用模板演示配置，创建工厂，选择“纸包装演示生产”并运行方案。
 3. 在全厂、流水线及物品跟随视图查看本地预测运行结果；通过“文件”保存或打开工程目录。
-4. 另外下载并解压 [已保存案例](https://github.com/JunyeFu/superfactory-demo-releases/releases/download/v2.0.1-demo-20261029/Paper-Carton-Project.zip)（约296 MiB），打开其中的“纸箱产运演示”工程，查看保留的整厂 Run 和真实云执行历史。
+4. 另外下载并解压 [已保存案例](https://github.com/JunyeFu/superfactory-demo-releases/releases/download/v2.0.1-demo-20261029.1/Paper-Carton-Project.zip)（约296 MiB），打开其中的“纸箱产运演示”工程，查看保留的整厂 Run 和真实云执行历史。
 
 云端实时生产需要部署者签发的私有连接文件。公开包不包含设备令牌、账户配置或数据库密码。公网 API 地址不是网页前端。
 
 已验证的云生产收口案例位于同一92设备厂房：纸箱开箱机与厂内转运车完成1件产品产出、3趟运输、15条已派命令及正常停止清理。同一候选已实际保存并在新进程精确恢复原Run与执行快照，两个进程均正常退出。该案例不代表93端点的全部订单通过；全厂全部订单、长时间性能和大历史归档仍待验。
 
 本仓库只发布运行包和启动说明；源代码保留在原私有仓库。软件及资源许可见运行包内 LICENSE、NOTICE 和各资源许可文件。
+当前为补丁1，修复含运输记录时的历史画布白屏。打开已保存工程后，点击“云端生产 → 执行”，选择“已保存记录1”，向下滚动并点击“回看执行画布与时间轴”。查看这些只读历史无需云凭据。
