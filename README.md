@@ -15,14 +15,17 @@
 
 ## 下载与运行
 
-| 下载内容 | 用途 |
-| --- | --- |
-| [Windows x64 应用](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Windows-x64.zip) | 主程序、设备模型、工厂模板及运行资源，首次使用请下载此包。 |
-| [纸包装示例工厂](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Example-Factory.zip) | 配套工程，包含92台设备的厂房、本地仿真记录及纸箱产运执行记录，需通过主程序打开。 |
+| 下载内容 | 文件大小 | 用途 |
+| --- | --- | --- |
+| [Windows x64 应用](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Windows-x64.zip) | 约137.3MB | 首次使用必需，包含主程序、设备模型、工厂模板、完整操作指南及运行资源。 |
+| [纸包装示例工厂](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Example-Factory.zip) | 约310.8MB | 可选，包含92台设备的厂房、本地仿真记录及纸箱产运执行记录，通过主程序打开。 |
+| [离线操作指南](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-User-Guide.html) | 约26.6KB | 可单独下载，用浏览器打开，包含基础与进阶操作；同一指南也已随应用提供。 |
+
+**第一次体验，下载应用运行包即可。** 内置模板已随应用提供；需要直接浏览已有工厂与运行记录时，再下载示例工厂。
 
 **运行环境：Windows 11 x64，已安装 Microsoft Edge WebView2 Runtime。**
 
-完整解压应用压缩包，双击 `superfactory.exe` 即可启动。完整指南已包含在运行包中，双击“操作指南.html”即可离线阅读，也可查看“操作指南.md”。请保留解压目录中的全部文件；无需安装开发工具。
+将应用运行包下载到电脑并完整解压，进入解压目录，双击 `superfactory.exe` 启动。包内“操作指南.html”可用浏览器离线阅读，也可查看“操作指南.md”。请保留解压目录中的全部文件；无需安装开发工具。
 
 ## 软件操作指南
 
@@ -34,8 +37,8 @@
 
 | 启动页入口 | 适合的用法 | 点击后会发生什么 |
 | --- | --- | --- |
-| **展示任务** | 直接浏览配套示例工厂与运行记录 | 打开工程目录选择窗口。请先下载并解压示例工程，再选择其中的“纸箱产运演示”目录，并点击“确认打开”。 |
 | **从模板开始** | 使用内置模板，创建自己的工厂并运行生产 | 首次使用先填写工程名称并点击“创建”，随后进入模板库。无需另行下载示例工程。 |
+| **展示任务** | 直接浏览配套示例工厂与运行记录 | 打开工程目录选择窗口。请先下载并解压示例工程，再选择其中的“纸箱产运演示”目录，并点击“确认打开”。 |
 | **空工程** | 自行设计厂房与产线 | 填写工程名称并点击“创建”，得到空白工程，再自行添加厂房、设备及生产方案。 |
 
 首次体验建议选择“从模板开始”；若希望直接查看已有工厂与运行记录，选择“展示任务”。
