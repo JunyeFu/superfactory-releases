@@ -1,68 +1,61 @@
-# 超级工厂 v2.0.1
+<p align="center"><img src="docs/assets/hero.svg" alt="超级工厂：让生产方案，先在数字工厂里运行" width="100%"></p>
 
-**工厂建模 · 生产仿真 · 云端执行回看**
+<p align="center"><strong>超级工厂——开源工业生产设计、仿真与云端执行平台</strong></p>
+<p align="center">把厂房、设备、物料与订单放在同一工程中，搭建产线，运行方案，看清生产和运输的每一步。</p>
+<p align="center"><a href="https://github.com/JunyeFu/superfactory-releases/releases/tag/v2.0.1"><strong>下载 Windows 版 ↗</strong></a>　 ·　 <a href="https://github.com/JunyeFu/superfactory-releases/blob/main/USER_GUIDE.md">操作指南</a>　 ·　 <a href="#产品画面">产品画面</a>　 ·　 <a href="https://github.com/JunyeFu/openatom/blob/main/docs/DEVELOPMENT.md">开发者入口</a></p>
 
-超级工厂是一款面向工厂布局与生产流程的三维仿真应用。通过设备模型、生产方案和运行时间轴，将设备作业、物料流转与成品运送呈现在同一工厂场景中。
+| 92 种设备 | 9 类模块 | 4 种报告格式 | v2.0.1 |
+| :---: | :---: | :---: | :---: |
+| 纸包装设备库 | 可编辑与组合 | PDF · HTML · CSV · JSON | 当前正式下载 |
 
-[下载应用（必需）](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Windows-x64.zip) · [下载示例工程（可选）](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Example-Factory.zip) · [阅读操作指南](USER_GUIDE.md)
+## 在一座工厂里，看懂整个生产过程
 
-## 产品功能
+![超级工厂实际运行画面：92台设备、12条线与生产时间轴](docs/assets/factory-overview.png)
 
-- **三维工厂布局**：使用设备模型和工厂模板组织产线，在全厂与流水线视图中查看设备分布。
-- **生产与运输仿真**：运行生产方案，观察多工序作业、物料流转和成品运送，通过物品跟随视图查看流转过程。
-- **工程保存与回看**：保存工厂工程和运行记录，重新打开后查看布局与生产过程。
-- **云端执行回看**：按时间轴查看已保存的设备作业和运输记录；连接部署环境后，可使用云端生产与数据查询功能。
+*实际应用截图：纸包装多产品工厂。全厂布局、对象树、物品状态与时间轴在同一工作台呈现。点击图片可查看原图。*
 
-## 下载与运行
+从原纸准备，到印刷、成型、检验和搬运，超级工厂把设备布局与生产过程连接起来。适合教学演示、方案探索和工业仿真开发；首个专业场景聚焦纸包装。
 
-| 下载内容 | 文件大小 | 用途 |
-| --- | --- | --- |
-| [Windows x64 应用](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Windows-x64.zip) | 约137.3MB | 首次使用必需，包含主程序、设备模型、工厂模板、完整操作指南及运行资源。 |
-| [纸包装示例工厂](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Example-Factory.zip) | 约310.8MB | 可选，包含92台设备的厂房、本地仿真记录及纸箱产运执行记录，通过主程序打开。 |
-| [离线操作指南](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-User-Guide.html) | 约26.6KB | 可单独下载，用浏览器打开，包含基础与进阶操作；同一指南也已随应用提供。 |
+## 产品画面
 
-**第一次体验，下载应用运行包即可。** 内置模板已随应用提供；需要直接浏览已有工厂与运行记录时，再下载示例工厂。
+### 01 / 从工厂全景，走到一件产品身边
 
-**运行环境：Windows 11 x64，已安装 Microsoft Edge WebView2 Runtime。**
+![物品跟随：查看纸袋成品与生产状态](docs/assets/item-tracking.png)
 
-将应用运行包下载到电脑并完整解压，进入解压目录，双击 `superfactory.exe` 启动。包内“操作指南.html”可用浏览器离线阅读，也可查看“操作指南.md”。请保留解压目录中的全部文件；无需安装开发工具。
+在全厂、流水线与物品跟随视图间切换。选中物品后，查看它所处的位置、状态和相关运行记录，沿时间轴理解加工与等待。
 
-## 软件操作指南
+### 02 / 将云端设备与执行记录带回工作台
 
-[在线阅读完整指南](USER_GUIDE.md) · [下载离线操作指南](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-User-Guide.html)
+![云端生产实际画面：四个软件设备、双工序、12件完成](docs/assets/cloud-execution.png)
 
-基础部分介绍三个启动入口、模板建厂、运行与回看、物品跟随及保存重开；进阶部分介绍订单调整、方案比较、自建布局、编组、草稿检查、结果导出和云端操作。离线指南已随应用包提供，也可单独下载后用浏览器打开。
+设备、数据、执行三个页签串联连接状态、查询与运行记录。图中为四个软件设备参与的双工序演示，两个工序均完成12件；实时云操作需要配置部署环境。
 
-## 启动后，选择哪种开始方式？
+## 从方案到结果
 
-| 启动页入口 | 适合的用法 | 点击后会发生什么 |
-| --- | --- | --- |
-| **从模板开始** | 使用内置模板，创建自己的工厂并运行生产 | 首次使用先填写工程名称并点击“创建”，随后进入模板库。无需另行下载示例工程。 |
-| **展示任务** | 直接浏览配套示例工厂与运行记录 | 打开工程目录选择窗口。请先下载并解压示例工程，再选择其中的“纸箱产运演示”目录，并点击“确认打开”。 |
-| **空工程** | 自行设计厂房与产线 | 填写工程名称并点击“创建”，得到空白工程，再自行添加厂房、设备及生产方案。 |
+| 工作环节 | 你可以做什么 |
+| --- | --- |
+| **搭建** | 从模板开始，组织厂房、设备和产线，调整布局、订单、物料与资源。 |
+| **运行** | 计算生产与运输事件，在三维场景和时间轴中查看作业、流转与等待。 |
+| **比较** | 查看方案结果与差异，导出 PDF、离线 HTML、CSV 和 JSON 评估报告。 |
+| **接手** | 保存工程与运行记录，重新打开继续查看；通过共同操作层接入外部 Agent。 |
 
-首次体验建议选择“从模板开始”；若希望直接查看已有工厂与运行记录，选择“展示任务”。
+## 开始体验
 
-## 从空白启动，创建并运行模板工厂
+**第一次使用，只需下载应用包。** 内置模板和操作指南已经随包提供。
 
-1. 在启动页点击“从模板开始”。
-2. 在“工程名称”中填写名称，例如“我的纸包装工厂”，点击“创建”。
-3. 在模板库中选择“纸包装多产品工厂 · 92台设备”。
-4. 点击“使用模板演示配置”，填入示例原料、资源、订单和检验设置。
-5. 填写“工厂前缀”，例如“演示工厂”；填写“方案名称”，例如“纸包装演示生产”。这两项需要手动填写。
-6. 点击“预览创建对象”，等待“创建预览”出现，再点击“创建模板工厂”。
-7. 选择刚创建的“纸包装演示生产”方案，点击“3 运行方案”。运行完成后，在全厂、流水线或物品跟随视图中查看生产过程。
-8. 通过“文件 → 保存工程…”保存；下次使用“文件 → 打开工程目录…”继续查看。
+1. [下载 Windows x64 应用](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Windows-x64.zip)（约137.3 MB），完整解压后启动 `superfactory.exe`。
+2. 选择 **从模板开始**，创建工程，选择“纸包装多产品工厂 · 92台设备”。
+3. 使用模板演示配置，填写工厂前缀与方案名称，预览并创建，再点击 **运行方案**。
 
-如果已经创建了没有厂房和设备的空工程，点击“从模板开始”会直接进入模板库，沿用当前工程。菜单中的“模块与模板库”也可在未打开工程时浏览，但添加模板工厂前仍需先创建工程。
+运行环境：**Windows 11 x64 + Microsoft Edge WebView2 Runtime**。希望直接浏览已保存的工厂与记录，可另下[示例工程](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-Example-Factory.zip)（约310.8 MB），通过“展示任务”打开其中的“纸箱产运演示”目录。
 
-## 浏览示例工厂
+[完整操作指南](https://github.com/JunyeFu/superfactory-releases/blob/main/USER_GUIDE.md) · [离线指南下载](https://github.com/JunyeFu/superfactory-releases/releases/download/v2.0.1/SuperFactory-2.0.1-User-Guide.html) · [反馈问题](https://github.com/JunyeFu/openatom/issues)
 
-下载并解压示例工厂包，在启动页点击“展示任务”，或选择“文件 → 打开工程目录…”。选择解压后的“纸箱产运演示”目录，在预览中点击“确认打开”，即可浏览厂房及已保存的运行记录。请选择该工程目录，不要选择应用安装目录或压缩包的外层目录。
+## 源码与开发进展
 
-查看云端执行记录时，进入“云端生产 → 执行”，选择“已保存记录1”，向下滚动并点击“回看执行画布与时间轴”。可在“对象类别”中选择“运输记录”，查看物料运送情况。
+[公开源码与开发入口](https://github.com/JunyeFu/openatom) · [当前项目进度](https://github.com/JunyeFu/openatom/blob/main/docs/STATUS.md)
 
-本地仿真和示例记录浏览无需连接云服务。发起实时云端生产或查询云端数据时，需要由部署管理员提供连接文件，在“设备”页导入后保存工程并重启应用。
+本仓库维护正式下载及操作指南，产品源码和下一版协作集中在 openatom。当前正式版本仍为 v2.0.1。
 
 ## 软件与资源许可
 
